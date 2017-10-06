@@ -1,0 +1,46 @@
+.color-body{
+  background-color: #E9EBEE;
+}
+.container{
+  background-color: #E9EBEE;
+}
+#my-nav{
+  color: white;
+  background-color: #4267b2;
+}
+#my-nav a{
+  color: white !important;
+}
+.added-width{
+  min-width: 400px;
+}
+#darkerColor span{
+  color: #0D1325;
+  font-size: 20px;
+}
+.list-heading{
+  padding: 20px 15px 0px 15px;
+}
+
+.panel{
+  margin-bottom: 8px;
+}
+.panel-body .glyphicon{
+  margin-left: 10px;
+  margin-right: 4px;
+}
+.text-post{
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+.img-post{
+  margin-bottom: 15px;
+}
+.footer{
+  height: 42px;
+  margin-top: 10px;
+}
+b{
+  font-style: italic;
+  font-weight: bolder;
+}
