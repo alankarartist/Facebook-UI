@@ -11,6 +11,13 @@
 #my-nav a{
   color: white !important;
 }
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
 .fa {
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
