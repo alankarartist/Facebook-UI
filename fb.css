@@ -49,9 +49,9 @@
 .img-post{
   margin-bottom: 15px;
 }
-.post-section,.ads{
+.post-section ,.ads{
     height: 700px;
-    overflow: auto;
+    overflow: scroll;
 }
 .post-section::-webkit-scrollbar {
     display: none;
