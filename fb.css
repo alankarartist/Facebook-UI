@@ -49,6 +49,16 @@
 .img-post{
   margin-bottom: 15px;
 }
+.post-section,.ads{
+    height: 700px;
+    overflow: auto;
+}
+.post-section::-webkit-scrollbar {
+    display: none;
+}
+.ads::-webkit-scrollbar{
+    display: none;
+}
 .footer{
   height: 42px;
   margin-top: 10px;
