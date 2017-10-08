@@ -31,10 +31,24 @@
   color: #0D1325;
   font-size: 20px;
 }
+.navfont > li > a {
+    margin: -10px 0px;
+    position: relative;
+    display: block;
+    padding: 2px 15px;
+    color: black;
+    font-size: 13px;
+}
 .list-heading{
   padding: 20px 15px 0px 15px;
+  font-size: 14px;
+  font-weight: bold;
+  color: grey;
 }
-
+.size{
+  padding: 0px 15px;
+  font-size: 14px;
+}
 .panel{
   margin-bottom: 8px;
 }
