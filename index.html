@@ -6,13 +6,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>FB</title>
   <link rel = "stylesheet" type = "text/css" href = "fb.css" />
-  <link rel = "stylesheet" type = "text/css" href = "css/bootstrap.css" />
+  <link rel = "stylesheet" type = "text/css" href = "css/bootstrap.min.css" />
   <link rel="stylesheet" href="https://unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css">
-  <script src="js/bootstrap.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body class="color-body">
-  <nav class="navbar navbar-default" id="my-nav">
+  <nav class="navbar navbar-default navbar-fixed-top" id="my-nav">
     <div class="container-fluid">
   <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
@@ -22,17 +23,17 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="https://starboyalankarartist.github.io/fb" id="brand">Facebook</a>
-        <i class="fa fa-facebook-official icon-social " aria-hidden="true"></i>
+        <a class="navbar-brand" href="https://starboyalankarartist.github.io/fb" id="brand">
+        <span><i class="fa fa-facebook-official icon-social " aria-hidden="true"></i></span>
+        </a>
       </div>
 
   <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <form class="navbar-form navbar-left">
           <div class="form-group">
-            <input type="text" class="form-control added-width" placeholder="Search">
+            <input type="text" class="form-control added-width" placeholder="Search"><button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
           </div>
-          <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
         </form>
         <ul class="nav navbar-nav navbar-right" id="darkerColor">
           <li><a href="https://www.facebook.com/starboyalankarartist"><img src="https://scontent.fdel11-1.fna.fbcdn.net/v/t1.0-9/18198595_1885136305144749_8515863674598198552_n.jpg?oh=6332e3f27d3a221252c8f9191e04f36b&oe=5A75E801" height="20" width="20" alt="Person"> Alankar</a></li>
@@ -46,9 +47,9 @@
      </div><!-- /.container-fluid -->
   </nav>
   <div class="container">
-    <article class="row wrapper">
-      <section class="col-md-3 hidden-xs" >
-        <div>
+    <article class="row margin-1">
+      <section class="col-md-3 hidden-xs hidden-sm">
+        <div class="nav-sec">
           <ul class="nav nav-pills nav-stacked navfont">
             <li role="presentation"><a href="https://www.facebook.com/starboyalankarartist?ref=bookmarks"><img src="https://scontent.fdel11-1.fna.fbcdn.net/v/t1.0-9/18198595_1885136305144749_8515863674598198552_n.jpg?oh=6332e3f27d3a221252c8f9191e04f36b&oe=5A75E801" height="20" width="20" alt="Person"> Alankar Singh</a></li>
             <li role="presentation"><a href="https://www.facebook.com/?sk=nf"><span class="glyphicon glyphicon-list-alt"></span> News Feeds <span class="badge pull-right">···</span></a></li>
@@ -71,7 +72,7 @@
             <li role="presentation"><span class="size"><a href="https://www.facebook.com/ads/manager/creation/creation/?act=1416247295366988&campaign_id=433405496710037&placement=bkmk_adcr&extra_1=campaign">Ad</a> · <a href="https://www.facebook.com/pages/create/?ref_type=bookmark">Page</a></span></li>
           </ul>
         </div></section>
-      <section class="col-md-6"><div class="post-section">
+      <section class="col-md-6  col-sm-12 "><div class="post-section">
         <div class="panel panel-default card-margin">
           <div class="panel-heading"><div class="media-left">
               <a href="https://www.facebook.com/starboyalankarartist">
@@ -290,22 +291,85 @@
                           </div>
                       </div></div>
      </div></section>
-      <section class="col-md-3"><div class="ads">
-        <div>The impressionistic art of <b>Alankar Singh</b> are deeply inspired by dream art and its various aspects. Alankar, who lives in India, is fascinated by the interplay of color, shape and draws upon these elements in various life aspects. Alankar prefers working with pencil, water Color, and acrylics and also have spare time for his hobby. Alankar Singh is also a Engineering student pursuing B.Tech. in Electronics & Communication Engineering from University Institute of Engineering & Technology, Kurukshetra University, Kurukshetra.</div><br>
+      <section class="col-md-3 hidden-xs"><div class="ads">
+        <div class="panel panel-default card-margin"><div class="panel-heading">
+            <span><h4 class="t">Trending</h4>
+            <ul class="nav nav-tabs">
+                <li class="active"><a data-toggle="tab" href="#top-trends"><i class="fa fa-line-chart text-muted" aria-hidden="true"></i></a></li>
+                <li><a data-toggle="tab" href="#politics"><i class="fa fa-university text-muted" aria-hidden="true"></i></a></li>
+                <li><a data-toggle="tab" href="#sports"><i class="fa fa-futbol-o text-muted" aria-hidden="true"></i></a></li>
+            </ul>
+          </span>
+          <div class="panel-body">
+            <div class="tab-content">
+                <div id="top-trends" class="tab-pane fade in active">
+                    <div class="list-group box-margin">
+                        <a href="#" class="list-group-item">
+                            <p class="list-group-item-text">Alankar Singh showing new heights to his art</p>
+                        </a>
+                    </div>
+                    <div class="list-group box-margin">
+                        <a href="#" class="list-group-item ">
+                            <p class="list-group-item-text">Om Prakash ready to release his Aunty Ki Ghanti Part-2</p>
+                        </a>
+                    </div>
+                    <div class="list-group box-margin">
+                        <a href="#" class="list-group-item">
+                            <p class="list-group-item-text">SC Ban on Firecrackers</p>
+                        </a>
+                    </div>
+                </div>
+                <div id="politics" class="tab-pane fade">
+                    <div class="list-group box-margin">
+                        <a href="#" class="list-group-item">
+                            <p class="list-group-item-text">something</p>
+                        </a>
+                    </div>
+                    <div class="list-group box-margin">
+                        <a href="#" class="list-group-item">
+                            <p class="list-group-item-text">somethng</p>
+                        </a>
+                    </div>
+                    <div class="list-group box-margin">
+                        <a href="#" class="list-group-item ">
+                            <p class="list-group-item-text">something</p>
+                        </a>
+                    </div>
+                </div>
+                <div id="sports" class="tab-pane fade">
+                    <div class="list-group box-margin">
+                        <a href="#" class="list-group-item">
+                            <p class="list-group-item-text">Indian Cricket Team on their way to thrash Australia in 2nd T20I to seal the series</p>
+                        </a>
+                    </div>
+                    <div class="list-group box-margin">
+                        <a href="#" class="list-group-item">
+                            <p class="list-group-item-text">something</p>
+                        </a>
+                    </div>
+                    <div class="list-group box-margin">
+                        <a href="#" class="list-group-item">
+                            <p class="list-group-item-text">something</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div></div></div>
+        <div class="panel panel-default card-margin"><div class="panel-body"><div>The impressionistic art of <b>Alankar Singh</b> are deeply inspired by dream art and its various aspects. Alankar, who lives in India, is fascinated by the interplay of color, shape and draws upon these elements in various life aspects. Alankar prefers working with pencil, water Color, and acrylics and also have spare time for his hobby. Alankar Singh is also a Engineering student pursuing B.Tech. in Electronics & Communication Engineering from University Institute of Engineering & Technology, Kurukshetra University, Kurukshetra.</div><br>
         <div><b><q>For me art is an expression of an artist which he/she observes in day-to-day life.</q></b></div>
-        <div><b>- Alankar Singh</b></div>
+        <div><b>- Alankar Singh</b></div></div></div>
+        <footer class="row footer"><div>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation"><a href="https://newsroom.fb.com/products/">About</a></li>
+            <li role="presentation"><a href="https://starboyalankarartist.github.io/fb">Home</a></li>
+            <li role="presentation"><a href="https://www.facebook.com/privacy/explanation">Privacy</a></li>
+            <li role="presentation"><a href="https://www.facebook.com/business/">Advertising</a></li>
+            <li role="presentation"><a href="https://www.facebook.com/policies/cookies/">Cookies</a></li>
+            <li role="presentation"><a href="https://www.facebook.com/help/568137493302217">Ad choices</a></li>
+          </ul></div>
+        </footer>
       </div></section>
     </article>
-    <footer class="row footer">
-      <ul class="nav nav-pills pull-right">
-        <li role="presentation"><a href="https://newsroom.fb.com/products/">About</a></li>
-        <li role="presentation"><a href="https://starboyalankarartist.github.io/fb">Home</a></li>
-        <li role="presentation"><a href="https://www.facebook.com/privacy/explanation">Privacy</a></li>
-        <li role="presentation"><a href="https://www.facebook.com/business/">Advertising</a></li>
-        <li role="presentation"><a href="https://www.facebook.com/policies/cookies/">Cookies</a></li>
-        <li role="presentation"><a href="https://www.facebook.com/help/568137493302217">Ad choices</a></li>
-      </ul>
-    </footer>
   </div>
 </body>
 </html>
