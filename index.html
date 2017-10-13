@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>FB</title>
   <link rel = "stylesheet" type = "text/css" href = "fb.css" >
-  <link rel = "stylesheet" type = "text/css" href = "css/bootstrap.min.css" >
+  <link rel = "stylesheet" type = "text/css" href = "css/bootstrap.min.css">
   <link rel="stylesheet" href="https://unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css">
   <script src="js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -38,10 +38,10 @@
         <ul class="nav navbar-nav navbar-right" id="darkerColor">
           <li><a href="https://www.facebook.com/starboyalankarartist"><img src="https://scontent.fdel11-1.fna.fbcdn.net/v/t1.0-9/18198595_1885136305144749_8515863674598198552_n.jpg?oh=6332e3f27d3a221252c8f9191e04f36b&oe=5A75E801" height="20" width="20" alt="Person"> Alankar</a></li>
           <li><a href="https://starboyalankarartist.github.io/fb">Home</a></li>
-          <li><a href="https://www.facebook.com/?sk=ff"><span class="glyphicon glyphicon-user"></span><span class="plus">+</span></a></li>
-          <li><a href="https://www.facebook.com/messages/new"><span class="glyphicon glyphicon-envelope"></span></a></li>
-          <li><a href="https://www.facebook.com/notifications"><span class="glyphicon glyphicon-globe"></span></a></li>
-          <li><a href="https://www.facebook.com/help/?ref=contextual"><span class="glyphicon glyphicon-question-sign"></span></a></li>
+          <li><a href="https://www.facebook.com/?sk=ff"><span class="notify-badge">1</span><i class="fa fa-user-plus" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.facebook.com/messages/new"><img src="https://png.icons8.com/facebook-messenger-filled/ios7/25" title="Facebook Messenger Filled" width="20" height="20"></a></li>
+          <li><a href="https://www.facebook.com/notifications"><span class="notify-badge">3</span><i class="fa fa-globe" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.facebook.com/help/?ref=contextual"><i class="fa fa-question-circle" aria-hidden="true"></i></span></a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
      </div><!-- /.container-fluid -->
@@ -52,8 +52,8 @@
         <div class="nav-sec">
           <ul class="nav nav-pills nav-stacked navfont">
             <li role="presentation"><a href="https://www.facebook.com/starboyalankarartist?ref=bookmarks"><img src="https://scontent.fdel11-1.fna.fbcdn.net/v/t1.0-9/18198595_1885136305144749_8515863674598198552_n.jpg?oh=6332e3f27d3a221252c8f9191e04f36b&oe=5A75E801" height="20" width="20" alt="Person"> Alankar Singh</a></li>
-            <li role="presentation"><a href="https://www.facebook.com/?sk=nf"><span class="glyphicon glyphicon-list-alt"></span> News Feeds <span class="badge pull-right">···</span></a></li>
-            <li role="presentation"><a href="https://www.facebook.com/messages/t"><span class="glyphicon glyphicon-envelope"></span> Messenger</a></li>
+            <li role="presentation" class="active"><a href="https://www.facebook.com/?sk=nf"><span class="glyphicon glyphicon-list-alt"></span> News Feeds <span class="badge pull-right"><b>···</b></span></a></li>
+            <li role="presentation"><a href="https://www.facebook.com/messages/t"><img src="https://png.icons8.com/facebook-messenger/color/24" title="Facebook Messenger" width="20" height="20"></span> Messenger </a></li>
             <p class="list-heading">Shortcuts</p>
             <li role="presentation"><a href="https://www.facebook.com/AlankarArtMania/?ref=bookmarks"><img src="https://scontent.fdel11-1.fna.fbcdn.net/v/t1.0-9/21192338_1214603271976921_2842432190054446970_n.jpg?oh=e6225300f7c8da11ec88a7d9dc588671&oe=5A462EF7" height="20" width="20" alt="Person"> Alankar's ArtMania <span class="badge pull-right">1</span></a></li>
             <li role="presentation"><a href="https://www.facebook.com/groups/208394685868726/?ref=bookmarks"><i class="fa fa-users" aria-hidden="true"></i> Water colour painters <span class="badge pull-right">2</span></a></li>
@@ -92,9 +92,8 @@
           <div class="panel-body">
               <div>
                 <h3 class="text-post">
-                  Om Prakash: bol aunty aau Kya, ghanti me bjau Kya, sot me lgau kya 😎<br>
-                  (Gormint)Aunty: Ye sare milke sot lgagye 😬<br>
-                  #yeahlonde #opbhaikaswag 😂😂😂
+                  Itna to kutte bhi nhi sunghte jitna ye ladkiya deo ki ad mein Londo ko sungh jaati hai ...
+                  #deobaazi 😂😂😂
                 </h3>
               </div><hr>
             <div>
@@ -303,58 +302,92 @@
           <div class="panel-body">
             <div class="tab-content">
                 <div id="top-trends" class="tab-pane fade in active">
-                    <div class="list-group box-margin">
-                        <a href="#" class="list-group-item">
-                            <p class="list-group-item-text">Alankar Singh showing new heights to his art</p>
-                        </a>
-                    </div>
-                    <div class="list-group box-margin">
-                        <a href="#" class="list-group-item ">
-                            <p class="list-group-item-text">Om Prakash ready to release his Aunty Ki Ghanti Part-2</p>
-                        </a>
-                    </div>
-                    <div class="list-group box-margin">
-                        <a href="#" class="list-group-item">
-                            <p class="list-group-item-text">SC Ban on Firecrackers</p>
-                        </a>
-                    </div>
-                </div>
+                  <div><div class="media-left">
+                          <i class="fa fa-line-chart text-muted" aria-hidden="true"></i>
+                  </div>
+                  <div class="media-body">
+                      <span><a href="https://timesofindia.indiatimes.com/viral-news/pilots-skillfully-manage-to-land-an-emirates-a380-as-it-sways-violently-from-side-to-side-in-crosswinds/articleshow/60993940.cms">
+                          <b>Pilots showed his skills</b></a>
+                      </span>
+                          <p class="list-group-item-text">Pilots skilfully manage to land an Emirates A380 as it sways violently from side to side in crosswinds</p>
+                  </div></div>
+                  <div><div class="media-left">
+                          <i class="fa fa-line-chart text-muted" aria-hidden="true"></i>
+                  </div>
+                  <div class="media-body">
+                      <span><a href="https://timesofindia.indiatimes.com/viral-news/pilots-skillfully-manage-to-land-an-emirates-a380-as-it-sways-violently-from-side-to-side-in-crosswinds/articleshow/60993940.cms">
+                          <b>Pilots showed his skills</b></a>
+                      </span>
+                          <p class="list-group-item-text">Pilots skilfully manage to land an Emirates A380 as it sways violently from side to side in crosswinds</p>
+                  </div></div>
+                  <div><div class="media-left">
+                          <i class="fa fa-line-chart text-muted" aria-hidden="true"></i>
+                  </div>
+                  <div class="media-body">
+                      <span><a href="https://timesofindia.indiatimes.com/viral-news/pilots-skillfully-manage-to-land-an-emirates-a380-as-it-sways-violently-from-side-to-side-in-crosswinds/articleshow/60993940.cms">
+                          <b>Pilots showed his skills</b></a>
+                      </span>
+                          <p class="list-group-item-text">Pilots skilfully manage to land an Emirates A380 as it sways violently from side to side in crosswinds</p>
+                  </div></div></div>
                 <div id="politics" class="tab-pane fade">
-                    <div class="list-group box-margin">
-                        <a href="#" class="list-group-item">
-                            <p class="list-group-item-text">something</p>
-                        </a>
-                    </div>
-                    <div class="list-group box-margin">
-                        <a href="#" class="list-group-item">
-                            <p class="list-group-item-text">somethng</p>
-                        </a>
-                    </div>
-                    <div class="list-group box-margin">
-                        <a href="#" class="list-group-item ">
-                            <p class="list-group-item-text">something</p>
-                        </a>
-                    </div>
-                </div>
+                  <div><div class="media-left">
+                          <i class="fa fa-line-chart text-muted" aria-hidden="true"></i>
+                  </div>
+                  <div class="media-body">
+                      <span><a href="https://timesofindia.indiatimes.com/viral-news/pilots-skillfully-manage-to-land-an-emirates-a380-as-it-sways-violently-from-side-to-side-in-crosswinds/articleshow/60993940.cms">
+                          <b>Pilots showed his skills</b></a>
+                      </span>
+                          <p class="list-group-item-text">Pilots skilfully manage to land an Emirates A380 as it sways violently from side to side in crosswinds</p>
+                  </div></div>
+                  <div><div class="media-left">
+                          <i class="fa fa-line-chart text-muted" aria-hidden="true"></i>
+                  </div>
+                  <div class="media-body">
+                      <span><a href="https://timesofindia.indiatimes.com/viral-news/pilots-skillfully-manage-to-land-an-emirates-a380-as-it-sways-violently-from-side-to-side-in-crosswinds/articleshow/60993940.cms">
+                          <b>Pilots showed his skills</b></a>
+                      </span>
+                          <p class="list-group-item-text">Pilots skilfully manage to land an Emirates A380 as it sways violently from side to side in crosswinds</p>
+                  </div></div>
+                  <div><div class="media-left">
+                          <i class="fa fa-line-chart text-muted" aria-hidden="true"></i>
+                  </div>
+                  <div class="media-body">
+                      <span><a href="https://timesofindia.indiatimes.com/viral-news/pilots-skillfully-manage-to-land-an-emirates-a380-as-it-sways-violently-from-side-to-side-in-crosswinds/articleshow/60993940.cms">
+                          <b>Pilots showed his skills</b></a>
+                      </span>
+                          <p class="list-group-item-text">Pilots skilfully manage to land an Emirates A380 as it sways violently from side to side in crosswinds</p>
+                  </div></div></div>
                 <div id="sports" class="tab-pane fade">
-                    <div class="list-group box-margin">
-                        <a href="#" class="list-group-item">
-                            <p class="list-group-item-text">Indian Cricket Team on their way to thrash Australia in 2nd T20I to seal the series</p>
-                        </a>
-                    </div>
-                    <div class="list-group box-margin">
-                        <a href="#" class="list-group-item">
-                            <p class="list-group-item-text">something</p>
-                        </a>
-                    </div>
-                    <div class="list-group box-margin">
-                        <a href="#" class="list-group-item">
-                            <p class="list-group-item-text">something</p>
-                        </a>
-                    </div>
+                  <div><div class="media-left">
+                          <i class="fa fa-line-chart text-muted" aria-hidden="true"></i>
+                  </div>
+                  <div class="media-body">
+                      <span><a href="https://timesofindia.indiatimes.com/viral-news/pilots-skillfully-manage-to-land-an-emirates-a380-as-it-sways-violently-from-side-to-side-in-crosswinds/articleshow/60993940.cms">
+                          <b>Pilots showed his skills</b></a>
+                      </span>
+                          <p class="list-group-item-text">Pilots skilfully manage to land an Emirates A380 as it sways violently from side to side in crosswinds</p>
+                  </div></div>
+                  <div><div class="media-left">
+                          <i class="fa fa-line-chart text-muted" aria-hidden="true"></i>
+                  </div>
+                  <div class="media-body">
+                      <span><a href="https://timesofindia.indiatimes.com/viral-news/pilots-skillfully-manage-to-land-an-emirates-a380-as-it-sways-violently-from-side-to-side-in-crosswinds/articleshow/60993940.cms">
+                          <b>Pilots showed his skills</b></a>
+                      </span>
+                          <p class="list-group-item-text">Pilots skilfully manage to land an Emirates A380 as it sways violently from side to side in crosswinds</p>
+                  </div></div>
+                  <div><div class="media-left">
+                          <i class="fa fa-line-chart text-muted" aria-hidden="true"></i>
+                  </div>
+                  <div class="media-body">
+                      <span><a href="https://timesofindia.indiatimes.com/viral-news/pilots-skillfully-manage-to-land-an-emirates-a380-as-it-sways-violently-from-side-to-side-in-crosswinds/articleshow/60993940.cms">
+                          <b>Pilots showed his skills</b></a>
+                      </span>
+                          <p class="list-group-item-text">Pilots skilfully manage to land an Emirates A380 as it sways violently from side to side in crosswinds</p>
+                  </div></div></div>
                 </div>
             </div>
-        </div></div></div>
+        </div></div>
         <div class="panel panel-default card-margin"><div class="panel-body"><div>The impressionistic art of <b>Alankar Singh</b> are deeply inspired by dream art and its various aspects. Alankar, who lives in India, is fascinated by the interplay of color, shape and draws upon these elements in various life aspects. Alankar prefers working with pencil, water Color, and acrylics and also have spare time for his hobby. Alankar Singh is also a Engineering student pursuing B.Tech. in Electronics & Communication Engineering from University Institute of Engineering & Technology, Kurukshetra University, Kurukshetra.</div><br>
         <div><b><q>For me art is an expression of an artist which he/she observes in day-to-day life.</q></b></div>
         <div><b>- Alankar Singh</b></div></div></div>
