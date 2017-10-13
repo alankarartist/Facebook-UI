@@ -9,15 +9,15 @@
 }
 .active .fa-line-chart{
   color: lightblue;
-  font-size: 20px;
+  font-size: 15px;
 }
 .active .fa-university{
   color: lightblue;
-  font-size: 20px;
+  font-size: 15px;
 }
 .active .fa-futbol-o{
   color: lightblue;
-  font-size: 20px ;
+  font-size: 15px ;
 }
 .active a{
     color: black !important;
