@@ -1,3 +1,77 @@
+#top-trends i{
+  margin-left: -14px !important;
+}
+#politics i{
+  margin-left: -14px !important;
+}
+#sports i{
+  margin-left: -14px !important;
+}
+.active .fa-line-chart{
+  color: lightblue;
+  font-size: 20px;
+}
+.active .fa-university{
+  color: lightblue;
+  font-size: 20px;
+}
+.active .fa-futbol-o{
+  color: lightblue;
+  font-size: 20px ;
+}
+.active a{
+    color: black !important;
+    background-color: white !important;
+    font-weight: bolder;
+}
+.fa-user-plus{
+  font-size: 20px !important;
+}
+.navbar-right .glyphicon-envelope{
+  color: white !important;
+}
+.glyphicon-duplicate , .fa-calendar-o{
+  color: orange !important;
+}
+.fa-address-book-o , .fa-users , .fa-calendar , .fa-hand-o-right{
+  color: blue;
+}
+.glyphicon-list-alt{
+  color: skyblue;
+}
+.badge{
+  background-color: #E9EBEE !important;
+  color: grey !important;
+}
+.badge b{
+  font-weight: 900;
+}
+.glyphicon-bookmark{
+  color: red !important;
+}
+.fa-globe{
+  font-size: 20px !important;
+}
+.fa-question-circle{
+  font-size: 20px !important;
+  color: black;
+}
+.item {
+    position:relative;
+    padding-top:20px !important;
+    display:inline-block;
+}
+.notify-badge{
+    position: absolute;
+    right:10px;
+    top:4px;
+    background:red;
+    text-align: center;
+    color:white !important;
+    padding: 0 4px 0 4px;
+    font-size: 10px !important;
+    z-index: 2;
+}
 .color-body{
   background-color: #E9EBEE;
 }
@@ -51,7 +125,7 @@
       left: 0 !important;
     }
     .btn-default{
-      left: 300px;
+      left: 260px;
     }
 }
 @media (min-width: 768px) {
@@ -67,6 +141,11 @@
     }
     .btn-default{
       left: 400px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .collapsed{
+        display: none !important;
     }
 }
 .fa {
