@@ -53,8 +53,11 @@
     .btn-default{
       left: 260px;
     }
+    .container{
+      margin-top: 0 !important;
+    }
 }
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1028px){
   .form-group{
     width: 400px !important;
   }
@@ -68,6 +71,33 @@
     .btn-default{
       left: 400px;
     }
+    .container{
+      margin-top: 50px;
+    }
+}
+@media (min-width: 768px) and (max-width: 801px){
+    .ads{
+      margin-left: -25px !important;
+      margin-right: -10px !important;
+    }
+}
+@media (min-width: 1029px) and (max-width: 1125px){
+  .added-width{
+      width: 300px !important;
+      left: 0 !important;
+    }
+  .btn-default{
+    left: 300px;
+  }
+}
+@media (min-width: 1126px){
+  .added-width{
+      width: 400px !important;
+      left: 0 !important;
+    }
+  .btn-default{
+    left: 400px;
+  }
 }
 .fa {
     display: inline-block;
