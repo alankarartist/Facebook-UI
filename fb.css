@@ -62,14 +62,14 @@
     width: 400px !important;
   }
   .form-control{
-    margin-left: 40px !important;
+    margin-left: -20px !important;
   }
   .added-width{
       width: 400px !important;
       left: 0 !important;
     }
     .btn-default{
-      left: 400px;
+      left: 340px;
     }
     .container{
       margin-top: 50px;
@@ -82,8 +82,11 @@
     }
 }
 @media (min-width: 1029px) and (max-width: 1125px){
+  .form-control{
+    margin-left: -20px !important;
+  }
   .added-width{
-      width: 300px !important;
+      width: 360px !important;
       left: 0 !important;
     }
   .btn-default{
@@ -91,12 +94,15 @@
   }
 }
 @media (min-width: 1126px){
+  .form-control{
+    margin-left: -20px !important;
+  }
   .added-width{
       width: 400px !important;
       left: 0 !important;
     }
   .btn-default{
-    left: 400px;
+    left: 340px;
   }
 }
 .fa {
