@@ -56,6 +56,24 @@
     .container{
       margin-top: 0 !important;
     }
+    #loading{
+      margin-left: 200px !important;
+    }
+}
+@media (min-width: 489px) and (max-width: 600px) {
+  #loading{
+    margin-left: 230px !important;
+  }
+}
+@media (min-width: 601px) and (max-width: 700px) {
+  #loading{
+    margin-left: 300px !important;
+  }
+}
+@media (min-width: 701px) and (max-width: 767px) {
+  #loading{
+    margin-left: 350px !important;
+  }
 }
 @media (min-width: 768px) and (max-width: 1028px){
   .form-group{
@@ -74,11 +92,17 @@
     .container{
       margin-top: 50px;
     }
+    #loading{
+      margin-left: 200px !important;
+    }
 }
 @media (min-width: 768px) and (max-width: 801px){
     .ads{
       margin-left: -25px !important;
       margin-right: -10px !important;
+    }
+    #loading{
+      margin-left: 200px !important;
     }
 }
 @media (min-width: 1029px) and (max-width: 1125px){
@@ -91,6 +115,9 @@
     }
   .btn-default{
     left: 300px;
+  }
+  #loading{
+    margin-left: 200px !important;
   }
 }
 @media (min-width: 1126px){
