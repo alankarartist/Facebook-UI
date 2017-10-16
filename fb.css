@@ -1,13 +1,9 @@
 .color-body{
   background-color: #E9EBEE;
 }
-.navbar-default{
-  height: 52px !important;
-}
 .container{
   background-color: #E9EBEE;
   margin-left: 20px !important;
-  margin-top: -5px !important;
 }
 #my-nav{
   color: white;
